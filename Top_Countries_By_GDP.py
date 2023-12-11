@@ -12,20 +12,13 @@ from openpyxl.styles import Font
 # this link shows you the different number formats you can apply to a column using openpyxl
 
 
-# FOR YOUR REFERENCE - https://www.geeksforgeeks.org/python-string-replace/
-# this link shows you how to use the REPLACE function (you may need it if your code matches mine but not required)
-
 ### REMEMBER ##### - your output should match the excel file (GDP_Report.xlsx) including all formatting.
 
 webpage = 'https://www.worldometers.info/gdp/gdp-by-country/'
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
 req = Request(webpage, headers=headers)
-webpage = urlopen(req).read()			
-
-
-
-
+webpage = urlopen(req).read()
 
 
     
